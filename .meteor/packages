@@ -16,5 +16,5 @@ webapp@1.13.0                  # Serves a Meteor app over HTTP
 server-render@0.4.0           # Support for server-side rendering
 hot-module-replacement@0.5.0  # Rebuilds the client if there is a change on the client without restarting the server
 meteortesting:mocha
-mongo
-ddp
+mongo@1.14.0
+ddp@1.4.0
