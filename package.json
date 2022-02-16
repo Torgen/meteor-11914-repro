@@ -1,0 +1,31 @@
+{
+  "name": "meteor-11914-repro",
+  "version": "1.0.0",
+  "description": "Minimal reproduction of https://github.com/meteor/meteor/issues/11914",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "denodeify": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "puppeteer": "^13.3.2"
+  },
+  "scripts": {
+    "test": "TEST_BROWSER_DRIVER=puppeteer meteor test --once --driver-package meteortesting:mocha --full-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torgen/meteor-11914-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Torgen/meteor-11914-repro/issues"
+  },
+  "homepage": "https://github.com/Torgen/meteor-11914-repro#readme",
+  "private": true
+}
